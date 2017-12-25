@@ -61,6 +61,12 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                     if let avatarUrl = (owner as! NSDictionary).value(forKey: "avatar_url") {
                                         self.imgURLArray.append(avatarUrl as! String)
                                     }
+                                    if let ownerLogin = (owner as! NSDictionary).value(forKey: "login") {
+                                        self.repoOwnerName.append(ownerLogin as! String)
+                                    }
+                                    if let rating = (owner as! NSDictionary).value(forKey: "starred_url") {
+                                        self.numberOfStars.append(rating as! String)
+                                    }
                                 }
                             }
                         }
@@ -109,14 +115,18 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         
         cell.repoNameLabel.text = repoName[indexPath.row]
+        cell.repoDescriptionLabel.text = repoDescription[indexPath.row]
+        cell.repoOwnerNameLabel.text=repoOwnerName[indexPath.row]
+        cell.numberOfStars.text=numberOfStars[indexPath.row]
+        
 //        cell.repoDescriptionLabel.text = repoDescription[indexPath.row]
         
-//        let imgURL = NSURL(string: imgURLArray[indexPath.row])
-//
-//        if imgURL != nil {
-//            let data = NSData(contentsOf: (imgURL as? URL)!)
-//            cell.ownerAvatar.image = UIImage(data: data as! Data)
-//        }
+        let imgURL = NSURL(string: imgURLArray[indexPath.row])
+
+        if imgURL != nil {
+            let data = NSData(contentsOf: (imgURL as? URL)!)
+            cell.ownerAvatar.image = UIImage(data: data as! Data)
+        }
         
         return cell
     }

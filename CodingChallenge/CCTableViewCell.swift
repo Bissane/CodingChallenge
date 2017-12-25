@@ -11,6 +11,7 @@ import UIKit
 class CCTableViewCell: UITableViewCell {
     
 
+
     @IBOutlet weak var ownerAvatar: UIImageView!
     
     @IBOutlet weak var repoNameLabel: UILabel!
