@@ -12,8 +12,15 @@ The language used is Swift.
 - Listing the most starred Github repos that were created in the last 30 days.
 - Each result is displayed independently in each row and the rows are contained in a list
 - Each row displays a repo with the following properties :
+<<<<<<< HEAD
 + Repository name
 + Repository description
 + Numbers of stars for the repo.
 + Username and avatar of the owner.
 
+=======
+  + Repository name
+  + Repository description
+  + Numbers of stars for the repo.
+  + Username and avatar of the owner.
+>>>>>>> 59e32b52844ac6f137caba0b718c06563802b6ea
