@@ -56,6 +56,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
 
                                     aRepo.desc = ""
                                 }
+                                if let rating : Int = repoDict.value(forKey: "stargazers_count") as? Int {
+                                    
+                                    aRepo.rating = String(rating)
+                                }
                                 if let owner = repoDict.value(forKey: "owner") {
                                     if let avatarUrl = (owner as! NSDictionary).value(forKey: "avatar_url") {
 
@@ -65,10 +69,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
 
                                         aRepo.ownerName = ownerLogin as? String
                                     }
-                                    if let rating = (owner as! NSDictionary).value(forKey: "starred_url") {
-                               
-                                        aRepo.rating = rating as? String
-                                    }
+                    
                                 }
                      
                                 self.repos.append(aRepo)
