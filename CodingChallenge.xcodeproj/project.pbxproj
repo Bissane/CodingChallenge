@@ -18,7 +18,6 @@
 		04925E981FE92D7500143A74 /* CCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04925E971FE92D7500143A74 /* CCTableViewCell.swift */; };
 		04925E9A1FE92DE400143A74 /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04925E991FE92DE400143A74 /* RepoCell.swift */; };
 		04925E9E1FE98CF300143A74 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04925E9D1FE98CF300143A74 /* Repo.swift */; };
-		04925EA01FED59E400143A74 /* star_PNG1595.png in Resources */ = {isa = PBXBuildFile; fileRef = 04925E9F1FED59E400143A74 /* star_PNG1595.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +55,6 @@
 		04925E971FE92D7500143A74 /* CCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCTableViewCell.swift; sourceTree = "<group>"; };
 		04925E991FE92DE400143A74 /* RepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCell.swift; sourceTree = "<group>"; };
 		04925E9D1FE98CF300143A74 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
-		04925E9F1FED59E400143A74 /* star_PNG1595.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_PNG1595.png; path = ../../../Downloads/star_PNG1595.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +111,6 @@
 				04925E991FE92DE400143A74 /* RepoCell.swift */,
 				04925E971FE92D7500143A74 /* CCTableViewCell.swift */,
 				04925E681FE9167200143A74 /* Main.storyboard */,
-				04925E9F1FED59E400143A74 /* star_PNG1595.png */,
 				042BEA091FF1092F0072A06A /* star_PNG1595.png */,
 				04925E6B1FE9167200143A74 /* Assets.xcassets */,
 				04925E6D1FE9167200143A74 /* LaunchScreen.storyboard */,
@@ -249,7 +246,6 @@
 			files = (
 				042BEA0A1FF1092F0072A06A /* star_PNG1595.png in Resources */,
 				04925E6F1FE9167200143A74 /* LaunchScreen.storyboard in Resources */,
-				04925EA01FED59E400143A74 /* star_PNG1595.png in Resources */,
 				04925E6C1FE9167200143A74 /* Assets.xcassets in Resources */,
 				04925E6A1FE9167200143A74 /* Main.storyboard in Resources */,
 			);
