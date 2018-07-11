@@ -3,7 +3,7 @@ iOS coding challenge
 
 # About the app:
 
-It's a single view app that displays the latest most starred repositories whithin the last 30 days, the data put into use is  a json retrieved from a github api.
+It's a single view app that displays the latest most starred repositories whithin the last 30 days, the data put into use is  a JSON  retrieved from a github API.
 
 The language used is Swift.
 
